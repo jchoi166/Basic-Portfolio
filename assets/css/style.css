@@ -1,0 +1,64 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
+html {
+    height: 100%;
+    /* position: absolute; */
+}
+body {
+    height: 100%;
+    /* width: 100%; */
+    margin: 0;
+    /* position: absolute; */
+}
+
+#firstBlock{
+    background-image: url("../images/bluetakashi.jpg");
+    background-size: cover;
+}
+
+#thirdBlock{
+    background-color: lightblue;
+    /* background-image: url("../images/bluetakashi.jpg"); */
+
+}
+#titleText {
+    /* color: white ; */
+    font-family: Arial ;
+    font-size: 200px;
+    background-color: white;
+    display: inline-block;
+}
+
+#description {
+    font-family: Arial ;
+    font-size: 75px;
+    margin: 75px;
+}
+
+#test {
+    color: white;
+    margin: 0;
+    padding: 25px;
+    font-family: Arial;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.projectItem{
+}
+.infoContainer {
+    display: flex;
+    justify-content: center;
+}
+.info {
+    margin: 50px;
+}
+.infoPic {
+    margin-left: 30px;
+}

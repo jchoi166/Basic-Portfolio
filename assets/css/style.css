@@ -2,10 +2,15 @@
     width: device-width ;
     zoom: 1.0 ;
   }
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 html {
     height: 100%;
     /* position: absolute; */
+    width: 100%;
 }
 body {
     height: 100%;
@@ -24,18 +29,42 @@ body {
     /* background-image: url("../images/bluetakashi.jpg"); */
 
 }
+.sect {
+    height: 80%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.subSection {
+    /* height: 50%; */
+    /* background-color: blue; */
+}
+.sectOne {
+    background-image: url("../images/bluetakashi.jpg");    
+}
+.sectTwo {
+    background-image: url("../images/yellowtakashi.jpg")
+}
+.sectThree {
+    background-image: url("../images/redtakashi.jpg")
+}
+
 #titleText {
     /* color: white ; */
     font-family: Arial ;
     font-size: 200px;
     background-color: white;
     display: inline-block;
+    /* margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px; */
+    margin-top: 120px;
 }
 
 #description {
     font-family: Arial ;
     font-size: 75px;
-    margin: 75px;
+    margin: 50px;
+    text-align: right;
 }
 
 #test {
@@ -50,8 +79,7 @@ body {
     width: 100%;
 }
 
-.projectItem{
-}
+
 .infoContainer {
     display: flex;
     justify-content: center;

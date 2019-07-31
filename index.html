@@ -10,77 +10,74 @@
 </head>
 
 <body>
-    <!-- <section id="firstBlock">
-        <div id="test">
-            <h2>HelloThere</h2>
-            <h2>MenuButton</h2>
-            <h2>About</h2>
-        </div>
-        <h1 id="titleText">Jin Choi</h1>
-    </section> -->
-    <!-- <nav>
-        
-    </nav>
-    <section id="secondBlock">
-        <h1 id="description">Here is my portfolio. Wow im so artistics.This is some decription of me explaining how passionate i am aboutweb development and design. I think art is pretty cool too</h1>
-    </section>
-    <section id="thirdBlock">
-        <div class="projectItem">
-            <h1 style="text-align: center">Deez Nutrients</h1>
-            <div class="infoContainer">
-                <p class="info">
-                blah blah blach     
-                </p>
-                <img class= "infoPic" src="assets/images/black cat.png">
-            </div>
-        </div>
-        <div class="projectItem">
-            <h1 style="text-align: center">Bookeeping App</h1>
-            <div class="infoContainer">
-                <div class="info">
-                blah blah blach     
-                </div>
-                <img class= "infoPic" src="assets/images/black cat.png">
-            </div>
-        </div>
-        <div class="projectItem">
-            <h1 style="text-align: center">Clicky Game</h1>
-            <div class="infoContainer">
-                <div class="info">
-                blah blah blach     
-                </div>
-                <img class= "infoPic" src="assets/images/black cat.png">                
-            </div>
-        </div>
-        <div class="projectItem">
-            <h1 style="text-align: center">Catalogue</h1>
-            <div class="infoContainer">
-                <div class="info">
-                blah blah blach     
-                </div>
-                <img class= "infoPic" src="assets/images/black cat.png">
-            </div>
-        </div>
-    </section> -->
+
     <div class='sect sectOne'>
         <h1 id="titleText">Jin Choi</h1>
     </div>
-    <div class='subSection'>
-        <h1 id="description">Here is my portfolio. Wow im so artistics.This is some decription of me explaining how
-            passionate i am aboutweb development and design. I think art is pretty cool too</h1>
+
+    <div class="aboutMe">
+        <p>Hello and welcome to my portfolio! I am a UCI graduate and aspiring front end developer with a passion for Art, Design, and anything else that's visually inspiring. If I'm not coding, you can usually find me playing video games, watching anime, or hanging out (eating) with friends. I love great people and great conversation, especially when new ideas are being shared, so I hope to collaborate with you (yes you, the viewer!) sometime in the future :]</p>
     </div>
-    <div class='sect sectTwo'>
-        <div class="infoContainer">
-            <div class="description">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, voluptatibus consequatur saepe consequuntur officia architecto earum error molestiae magnam ipsum quam aliquid natus quis quisquam nesciunt fugiat quia ad est?</p>
+
+    <div class='sectTwo'>
+        <!-- <div class="infoContainer"> -->
+            <div class="sectionTitle">
+                <h1 class="sectionText">Projects</h1>
             </div>
-            <div class="webImage">
-                <img class= "infoPic" src="assets/images/black cat.png">                
+            <div class="infoItem">
+                <div class="info">
+                    <div class="content">
+                        <h1>Deez Nutrients</h1>
+                        <br>
+                        <p>Health/Fitness app that allows you to look up the nutritional information of food items by name and log it in a tracker that calculates the total amount of calories and macronutrients consumed in a week. I was responsible for much of the front end work, utilizing Semantic UI and custom CSS to create the layout of the app including the about page. 
+                        </p>
+                        <br>
+                        <a href="https://vitamind-b6c3c.firebaseapp.com/index.html" target="_blank">Visit Here!</a>
+                        <a href="https://github.com/mearatjames/Deez-Nutrients/tree/master" target="_blank">Source Code</a>
+                    </div>
+                </div>
+                <div class="webImage">
+                    <img class= "infoPic" src="assets/images/deezNutrientsScreenshot.png" >  
+                </div>
             </div>
+            <div class="infoItem">
+                <div class="webImage">
+                    <img class= "infoPic" src="assets/images/bookkeepingAppScreenshot.png" >
+                </div>
+                <div class="info">
+                    <div class="content" id="bookkeeping">
+                        <h1>Bookeeping App</h1>
+                        <br>
+                        <p>A standard accounting app that lets you keep track of expenses and revenue through journal entries and run monthly/quarterly/yearly reports. The app was made entirely with React and Material UI (React CSS Library)  with each person assigned to a different component. I was in charge of the “search journal entries” component where the user can search for journal entries using a journal ID or Approver/Preparer name. The search function has an autocomplete feature and the search results are displayed via cards for each journal entry. We used Axios to make AJAX calls and MongoDB as our database with Mongoose to write out our queries. </p>
+                        <br>
+                        <a href="https://peaceful-anchorage-98434.herokuapp.com/" target="_blank">Visit Here!</a>
+                        <a href="https://github.com/stevenguy/bc-project-3/blob/jin/client/src/pages/Search.js" target="_blank">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="infoItem">
+                <div class="info">
+                    <div class="content">
+                        <h1>Catalogue</h1>
+                        <br>
+                        <p>A search engine utilizing Google Books API where the user can look up books by name to learn more information about them and save their favorite ones on a separate page. The app is made with React and uses MongoDB as its database.</p>
+                        <br>
+                        <p>Link Unavailable (incomplete) <a href="https://github.com/jchoi166/GoogleBooks-React-/tree/working" target="_blank"> Source Code</a></p>
+                    </div>
+                </div>
+                <div class="webImage">
+                    <img class= "infoPic" src="assets/images/catalogScreenshot.png" >  
+                </div>
+            </div>
+        <!-- </div> -->
+    </div>
+    
+    <div class='subSection'>
+        <div>
+
         </div>
     </div>
-    <div class='subSection'></div>
-    <div class='sect sectThree'></div>
+    <!-- <div class='sect sectThree'></div> -->
     <script src="assets/js/logic.js"></script>
 </body>
 

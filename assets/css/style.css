@@ -29,6 +29,28 @@ body {
     /* background-image: url("../images/bluetakashi.jpg"); */
 
 }
+#titleText {
+    font-family: Arial ;
+    font-size: 200px;
+    background-color: white;
+    display: inline-block;
+    /* margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px; */
+    margin-top: 120px;
+}
+.aboutMe{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 49px;
+    margin: 50px;
+    text-align: right;
+}
+#bookkeeping{
+    font-size: 23px;
+    text-align: right;
+}
+
 .sect {
     height: 80%;
     background-size: cover;
@@ -42,51 +64,47 @@ body {
     background-image: url("../images/bluetakashi.jpg");    
 }
 .sectTwo {
-    background-image: url("../images/yellowtakashi.jpg")
+    background-image: url("../images/yellowtakashi.jpg");
+    background-attachment: fixed;
+    padding: 50px;
 }
 .sectThree {
-    background-image: url("../images/redtakashi.jpg")
+    background-image: url("../images/redtakashi.jpg");
 }
-
-#titleText {
-    /* color: white ; */
-    font-family: Arial ;
-    font-size: 200px;
-    background-color: white;
-    display: inline-block;
-    /* margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 10px; */
-    margin-top: 120px;
-}
-
-#description {
-    font-family: Arial ;
-    font-size: 75px;
-    margin: 50px;
-    text-align: right;
-}
-
-#test {
-    color: white;
-    margin: 0;
-    padding: 25px;
-    font-family: Arial;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    box-sizing: border-box;
-    width: 100%;
-}
-
-
 .infoContainer {
+    padding: 150px 0px 150px 0px;
+}
+.sectionTitle {
+    margin-top: 150px;
     display: flex;
     justify-content: center;
 }
+.sectionText{
+    font-family: Arial;
+    font-weight: bold;
+    background: white;
+    font-size: 100px;
+}
+.infoItem {
+    display: flex;
+    background: white;
+    margin-top: 50px;
+}
 .info {
-    margin: 50px;
+    flex: 1;
+}
+.content {
+    margin: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+}
+.webImage {
+    background-color: grey;
+    flex: 1;
+    
 }
 .infoPic {
-    margin-left: 30px;
+    max-width: 100%;
+    display:block;
 }
